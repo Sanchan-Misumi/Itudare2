@@ -14,6 +14,11 @@
 		EE7FFEA41FA02E87003BE3C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFEA21FA02E87003BE3C5 /* LaunchScreen.storyboard */; };
 		EE7FFEAF1FA02E87003BE3C5 /* Itsudare2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FFEAE1FA02E87003BE3C5 /* Itsudare2Tests.swift */; };
 		EE7FFEBA1FA02E87003BE3C5 /* Itsudare2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FFEB91FA02E87003BE3C5 /* Itsudare2UITests.swift */; };
+		EE7FFECD1FA031EA003BE3C5 /* ゆず ポップ A [M] Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFEC81FA031E9003BE3C5 /* ゆず ポップ A [M] Bold.ttf */; };
+		EE7FFECE1FA031EA003BE3C5 /* ゆず ポップ A [M] Extra Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFEC91FA031E9003BE3C5 /* ゆず ポップ A [M] Extra Light.ttf */; };
+		EE7FFECF1FA031EA003BE3C5 /* ゆず ポップ A [M] Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFECA1FA031E9003BE3C5 /* ゆず ポップ A [M] Light.ttf */; };
+		EE7FFED01FA031EA003BE3C5 /* ゆず ポップ A [M] Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFECB1FA031E9003BE3C5 /* ゆず ポップ A [M] Regular.ttf */; };
+		EE7FFED11FA031EA003BE3C5 /* 説明書.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFECC1FA031E9003BE3C5 /* 説明書.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		EE7FFEB51FA02E87003BE3C5 /* Itsudare2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Itsudare2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7FFEB91FA02E87003BE3C5 /* Itsudare2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itsudare2UITests.swift; sourceTree = "<group>"; };
 		EE7FFEBB1FA02E87003BE3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7FFEC81FA031E9003BE3C5 /* ゆず ポップ A [M] Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ゆず ポップ A [M] Bold.ttf"; sourceTree = "<group>"; };
+		EE7FFEC91FA031E9003BE3C5 /* ゆず ポップ A [M] Extra Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ゆず ポップ A [M] Extra Light.ttf"; sourceTree = "<group>"; };
+		EE7FFECA1FA031E9003BE3C5 /* ゆず ポップ A [M] Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ゆず ポップ A [M] Light.ttf"; sourceTree = "<group>"; };
+		EE7FFECB1FA031E9003BE3C5 /* ゆず ポップ A [M] Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ゆず ポップ A [M] Regular.ttf"; sourceTree = "<group>"; };
+		EE7FFECC1FA031E9003BE3C5 /* 説明書.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "説明書.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		EE7FFE981FA02E86003BE3C5 /* Itsudare2 */ = {
 			isa = PBXGroup;
 			children = (
+				EE7FFEC71FA031E9003BE3C5 /* ゆず ポップ A ver.0.6 */,
 				EE7FFE991FA02E86003BE3C5 /* AppDelegate.swift */,
 				EE7FFE9B1FA02E87003BE3C5 /* ViewController.swift */,
 				EE7FFE9D1FA02E87003BE3C5 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				EE7FFEBB1FA02E87003BE3C5 /* Info.plist */,
 			);
 			path = Itsudare2UITests;
+			sourceTree = "<group>";
+		};
+		EE7FFEC71FA031E9003BE3C5 /* ゆず ポップ A ver.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+				EE7FFEC81FA031E9003BE3C5 /* ゆず ポップ A [M] Bold.ttf */,
+				EE7FFEC91FA031E9003BE3C5 /* ゆず ポップ A [M] Extra Light.ttf */,
+				EE7FFECA1FA031E9003BE3C5 /* ゆず ポップ A [M] Light.ttf */,
+				EE7FFECB1FA031E9003BE3C5 /* ゆず ポップ A [M] Regular.ttf */,
+				EE7FFECC1FA031E9003BE3C5 /* 説明書.txt */,
+			);
+			path = "ゆず ポップ A ver.0.6";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7FFED01FA031EA003BE3C5 /* ゆず ポップ A [M] Regular.ttf in Resources */,
 				EE7FFEA41FA02E87003BE3C5 /* LaunchScreen.storyboard in Resources */,
 				EE7FFEA11FA02E87003BE3C5 /* Assets.xcassets in Resources */,
+				EE7FFECD1FA031EA003BE3C5 /* ゆず ポップ A [M] Bold.ttf in Resources */,
+				EE7FFECE1FA031EA003BE3C5 /* ゆず ポップ A [M] Extra Light.ttf in Resources */,
+				EE7FFECF1FA031EA003BE3C5 /* ゆず ポップ A [M] Light.ttf in Resources */,
 				EE7FFE9F1FA02E87003BE3C5 /* Main.storyboard in Resources */,
+				EE7FFED11FA031EA003BE3C5 /* 説明書.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
