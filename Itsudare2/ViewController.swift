@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var itsuLabel: UILabel!
+    @IBOutlet var dokoLabel: UILabel!
+    @IBOutlet var dareLabel: UILabel!
+    @IBOutlet var doushitaLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +22,18 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    @IBAction func change(){
+        
+    }
+    
+    @IBAction func reset(){
+        
+    }
+    
+    @IBAction func random(){
+        
     }
 
 
